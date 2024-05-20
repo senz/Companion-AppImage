@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Bitfocus Companion
+Comment=Stream Deck frontend and automation tool
+Exec=AppRun
+Icon=companion
+Terminal=false
+Categories=Utility
+StartupWMClass=companion-launcher
+
