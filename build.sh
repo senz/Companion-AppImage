@@ -1,7 +1,7 @@
 #!/bin/sh
 chmod +x AppDir/AppRun
 
-BITFOCUS_COMPANION_URL="https://s3.bitfocus.io/builds/companion/companion-linux-x64-3.3.0+6991-stable-b27baf94.tar.gz"
+BITFOCUS_COMPANION_URL="https://s3.bitfocus.io/builds/companion/companion-linux-x64-3.3.1+7001-stable-ee7c3daa.tar.gz"
 
 mkdir -p AppDir/companion
 if [ ! -f companion.tar.gz ]; then
