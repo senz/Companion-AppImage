@@ -45,10 +45,9 @@ jobs:
         git push origin $TAG_NAME
 
     - name: Upload AppImage to Release
-      uses: meeDamian/github-release@2.0
+      uses: softprops/action-gh-release@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        tag: ${{ env.TAG_NAME }}
+        tag_name: ${{ env.TAG_NAME }}
         files: "Bitfocus_Companion*.AppImage"
-        gzip: false
-        allow_override: true
+        fail_on_unmatched_files: true
