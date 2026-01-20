@@ -10,7 +10,7 @@ fi
 # Set default architectures if not specified
 BUILD_ARCHS="${BUILD_ARCHS:-x86_64}"
 # Set companion version from environment variable or use default
-COMPANION_VERSION="${COMPANION_VERSION:-4.0.1+8061-stable-b1c1c1f4dd}"
+COMPANION_VERSION="${COMPANION_VERSION:-4.2.3+8775-stable-9badd326db}"
 
 # Download AppImage tool if not present
 if ! command -v appimagetool.AppImage >/dev/null 2>&1

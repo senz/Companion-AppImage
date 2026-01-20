@@ -25,7 +25,7 @@ jobs:
       packages: write
       id-token: write
     env:
-      COMPANION_VERSION: ${{ inputs.companion_version || '4.0.1+8061-stable-b1c1c1f4dd' }}
+      COMPANION_VERSION: ${{ inputs.companion_version || '4.2.3+8775-stable-9badd326db' }}
       BUILD_ARCHS: ${{ inputs.build_archs || 'arm64 x86_64' }}
 
     steps:
